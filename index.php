@@ -13,8 +13,8 @@ function smtpmailer($to, $from, $from_name, $subject, $body)
         $mail->Username = 'YOUR MAIL ADDRESS';
         $mail->Password = 'PASSWORD';   
    
-   //   $path = 'reseller.pdf';
-   //   $mail->AddAttachment($path);
+ 
+ 
    
         $mail->IsHTML(true);
         $mail->From="YOUR MAIL ADDRESS";
